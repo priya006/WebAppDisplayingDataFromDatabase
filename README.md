@@ -1,9 +1,11 @@
 # WebAppDisplayingDataFromDatabase
 Display Data from MySQL database table in Node.js.
 
-# How to get the Project Folder Straucture
+# How to get the Project Folder Structure
 ------
-Run the command `npx express --view=ejs myapp`to get Basic Project Structure
+1. Create a Empty folder and open the Empty folder using `VS Code IDE`
+2. Run the command `npx express --view=ejs myapp`to get Basic Project Structure
+
 
 # Steps
 --------
