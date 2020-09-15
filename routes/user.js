@@ -1,0 +1,19 @@
+var database =require('./../database');
+var express = require('express');
+var router = express.Router();
+
+// /* GET users listing. */
+// router.get('/', function(req, res, next) {
+//   res.send('respond with a resource');
+// });
+
+// this script to fetch data from MySQL databse tabl
+router.get('/user-list', function(req, res, next) {
+  var sql='SELECT * FROM userstable';
+  database.query(sql, function (err, data, fields) {
+  if (err) throw err;
+  res.render('user-list', { title: 'User List', userData: data});
+});
+});
+
+module.exports = router;
