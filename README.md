@@ -6,6 +6,11 @@ Display Data from MySQL database table in Node.js.
 1. Create a Empty folder and open the Empty folder using `VS Code IDE`
 2. Run the command `npx express --view=ejs myapp`to get Basic Project Structure
 
+# Installations
+----------
+1. `npm install --save mysql` install mysql node module using the NPM
+
+
 
 # Steps
 --------
